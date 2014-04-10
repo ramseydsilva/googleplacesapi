@@ -1,0 +1,30 @@
+{
+  "name": "googleplacesapi",
+  "version": "0.0.1",
+  "description": "Node.js library for the Google Places API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramseydsilva/googleplacesapi"
+  },
+  "keywords": [
+    "googleplaces",
+    "api"
+  ],
+  "author": "Ramsey D'silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramseydsilva/googleplacesapi/issues"
+  },
+  "homepage": "https://github.com/ramseydsilva/googleplacesapi",
+  "dependencies": {
+    "request": "^2.34.0",
+    "xtend": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
+}
