@@ -1,6 +1,9 @@
 Google Places API Client
 ========================
 
+Node.js library for the Google Places API. Official docs [here][docs]
+
+
 Install
 -------
 `npm install googleplacesapi`
@@ -42,18 +45,21 @@ Defaults
 These are the application defaults. You can overwrite them during instantiation
 of the class or by passing them in the first argument of the search methods.
 
-key: ''
-sensor: false
-query: ''
-name: ''
-reference: ''
-radius: 5000 // Defaults to a 5K radius
-types: 'food' // Defaults to food establishments
-location: ('43.653226, -79.3831843'), // Defaults to Toronto
-searchUrl: 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
-detailsUrl: 'https://maps.googleapis.com/maps/api/place/details/json'
-textUrl: 'https://maps.googleapis.com/maps/api/place/textsearch/json'
-
+```
+var defaults = {
+    key: '',
+    sensor: false,
+    query: '',
+    name: '',
+    reference: '',
+    radius: 5000, // Defaults to a 5K radius
+    types: 'food', // Defaults to food establishments
+    location: ('43.653226, -79.3831843'), // Defaults to Toronto
+    searchUrl: 'https://maps.googleapis.com/maps/api/place/nearbysearch/json',
+    detailsUrl: 'https://maps.googleapis.com/maps/api/place/details/json',
+    textUrl: 'https://maps.googleapis.com/maps/api/place/textsearch/json'
+}
+```
 
 Test
 ----
@@ -65,4 +71,5 @@ Issues
 https://github.com/ramseydsilva/GooglePlacesClient/issues
 
 
-***
+
+[docs]: http://googleplacesapi.ramseydsilva.com
