@@ -14,9 +14,9 @@ Usage
 ```
 var googleplacesapi = require('googleplacesapi');
 
-gp = new googleplacesapi({key: secrets.serverKey});
+gpa = new googleplacesapi({key: secrets.serverKey});
 
-gp.text({query: 'Big Slice, Toronto'}, function(err, res) {
+gpa.text({query: 'Big Slice, Toronto'}, function(err, res) {
     if (!err) {
         console.log(res); // Results
         var coords = res.results[0].geometry.location;
