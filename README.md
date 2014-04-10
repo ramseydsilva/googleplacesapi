@@ -3,7 +3,7 @@ Google Places API Client
 
 Install
 -------
-`npm install googleplacesclient`
+`npm install googleplacesapi`
 
 
 Usage
@@ -12,6 +12,7 @@ Usage
 var googleplacesapi = require('googleplacesapi');
 
 gp = new googleplacesapi({key: secrets.serverKey});
+
 gp.text({query: 'Big Slice, Toronto'}, function(err, res) {
     if (!err) {
         console.log(res); // Results
