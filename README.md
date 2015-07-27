@@ -32,7 +32,7 @@ gpa.search({name: 'Big Slice, Toronto', location: location}, function(err, res) 
     }
 });
 
-gpa.details({reference: bigSlice.reference}, function(err, res) {
+gpa.details({placeid: bigSlice.place_id}, function(err, res) {
     if (!err) {
         console.log(res); // Results
     }
