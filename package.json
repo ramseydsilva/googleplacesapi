@@ -1,6 +1,6 @@
 {
   "name": "googleplacesapi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node.js library for the Google Places API",
   "main": "lib/index.js",
   "scripts": {
